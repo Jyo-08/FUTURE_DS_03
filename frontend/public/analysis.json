@@ -1,0 +1,386 @@
+{
+    "kpis": {
+        "total_contacts": 45211,
+        "converted_customers": 5289,
+        "non_converted": 39922,
+        "conversion_rate": 11.7,
+        "dropoff_rate": 88.3,
+        "average_call_duration": 258.16,
+        "average_campaigns": 2.76,
+        "average_balance": 1362.27
+    },
+    "charts": {
+        "conversion_distribution": [
+            {
+                "status": "no",
+                "count": 39922
+            },
+            {
+                "status": "yes",
+                "count": 5289
+            }
+        ],
+        "contact": [
+            {
+                "contact": "cellular",
+                "conversion_rate": 14.92
+            },
+            {
+                "contact": "telephone",
+                "conversion_rate": 13.42
+            },
+            {
+                "contact": "unknown",
+                "conversion_rate": 4.07
+            }
+        ],
+        "job": [
+            {
+                "job": "admin.",
+                "conversion_rate": 12.2
+            },
+            {
+                "job": "blue-collar",
+                "conversion_rate": 7.27
+            },
+            {
+                "job": "entrepreneur",
+                "conversion_rate": 8.27
+            },
+            {
+                "job": "housemaid",
+                "conversion_rate": 8.79
+            },
+            {
+                "job": "management",
+                "conversion_rate": 13.76
+            },
+            {
+                "job": "retired",
+                "conversion_rate": 22.79
+            },
+            {
+                "job": "self-employed",
+                "conversion_rate": 11.84
+            },
+            {
+                "job": "services",
+                "conversion_rate": 8.88
+            },
+            {
+                "job": "student",
+                "conversion_rate": 28.68
+            },
+            {
+                "job": "technician",
+                "conversion_rate": 11.06
+            },
+            {
+                "job": "unemployed",
+                "conversion_rate": 15.5
+            },
+            {
+                "job": "unknown",
+                "conversion_rate": 11.81
+            }
+        ],
+        "month": [
+            {
+                "month": "apr",
+                "conversion_rate": 19.68
+            },
+            {
+                "month": "aug",
+                "conversion_rate": 11.01
+            },
+            {
+                "month": "dec",
+                "conversion_rate": 46.73
+            },
+            {
+                "month": "feb",
+                "conversion_rate": 16.65
+            },
+            {
+                "month": "jan",
+                "conversion_rate": 10.12
+            },
+            {
+                "month": "jul",
+                "conversion_rate": 9.09
+            },
+            {
+                "month": "jun",
+                "conversion_rate": 10.22
+            },
+            {
+                "month": "mar",
+                "conversion_rate": 51.99
+            },
+            {
+                "month": "may",
+                "conversion_rate": 6.72
+            },
+            {
+                "month": "nov",
+                "conversion_rate": 10.15
+            },
+            {
+                "month": "oct",
+                "conversion_rate": 43.77
+            },
+            {
+                "month": "sep",
+                "conversion_rate": 46.46
+            }
+        ],
+        "education": [
+            {
+                "education": "primary",
+                "conversion_rate": 8.63
+            },
+            {
+                "education": "secondary",
+                "conversion_rate": 10.56
+            },
+            {
+                "education": "tertiary",
+                "conversion_rate": 15.01
+            },
+            {
+                "education": "unknown",
+                "conversion_rate": 13.57
+            }
+        ],
+        "campaign_volume": [
+            {
+                "contact": "cellular",
+                "contacts": 29285
+            },
+            {
+                "contact": "telephone",
+                "contacts": 2906
+            },
+            {
+                "contact": "unknown",
+                "contacts": 13020
+            }
+        ]
+    },
+    "executive_summary": [
+        "Marketing funnel analysis helps identify where potential customers are lost before conversion.",
+        "Campaign conversion performance varies across customer segments, contact methods, and time periods.",
+        "Optimizing high-performing channels can improve lead quality and reduce wasted marketing effort.",
+        "Customer engagement indicators such as call duration and previous campaign outcome influence conversion performance.",
+        "Conversion-focused recommendations can help sales and marketing teams improve revenue outcomes."
+    ],
+    "recommendations": [
+        "Prioritize channels and customer segments with higher conversion rates.",
+        "Reduce repeated outreach to low-performing segments to improve campaign efficiency.",
+        "Improve follow-up strategy for customers with previous positive campaign outcomes.",
+        "Analyze low-conversion months and adjust campaign timing accordingly.",
+        "Focus marketing resources on segments that show both high contact volume and strong conversion potential."
+    ],
+    "dataset_preview": [
+        {
+            "age": 58,
+            "job": "management",
+            "marital": "married",
+            "education": "tertiary",
+            "default": "no",
+            "balance": 2143,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 261,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 44,
+            "job": "technician",
+            "marital": "single",
+            "education": "secondary",
+            "default": "no",
+            "balance": 29,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 151,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 33,
+            "job": "entrepreneur",
+            "marital": "married",
+            "education": "secondary",
+            "default": "no",
+            "balance": 2,
+            "housing": "yes",
+            "loan": "yes",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 76,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 47,
+            "job": "blue-collar",
+            "marital": "married",
+            "education": "unknown",
+            "default": "no",
+            "balance": 1506,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 92,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 33,
+            "job": "unknown",
+            "marital": "single",
+            "education": "unknown",
+            "default": "no",
+            "balance": 1,
+            "housing": "no",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 198,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 35,
+            "job": "management",
+            "marital": "married",
+            "education": "tertiary",
+            "default": "no",
+            "balance": 231,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 139,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 28,
+            "job": "management",
+            "marital": "single",
+            "education": "tertiary",
+            "default": "no",
+            "balance": 447,
+            "housing": "yes",
+            "loan": "yes",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 217,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 42,
+            "job": "entrepreneur",
+            "marital": "divorced",
+            "education": "tertiary",
+            "default": "yes",
+            "balance": 2,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 380,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 58,
+            "job": "retired",
+            "marital": "married",
+            "education": "primary",
+            "default": "no",
+            "balance": 121,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 50,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        },
+        {
+            "age": 43,
+            "job": "technician",
+            "marital": "single",
+            "education": "secondary",
+            "default": "no",
+            "balance": 593,
+            "housing": "yes",
+            "loan": "no",
+            "contact": "unknown",
+            "day": 5,
+            "month": "may",
+            "duration": 55,
+            "campaign": 1,
+            "pdays": -1,
+            "previous": 0,
+            "poutcome": "unknown",
+            "y": "no",
+            "converted": 0
+        }
+    ]
+}
