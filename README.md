@@ -29,19 +29,19 @@ This project was developed as part of **Future Interns – Data Science & Analyt
 
 ### Marketing Funnel Dashboard
 
-![Dashboard](Screenshots/Hero.png)
+![Dashboard](Screenshots/home.png)
 
-### Funnel Overview
+### Contact Channel and Monthly Analysis
 
-![Funnel](Screenshots/Funnel.png)
-
-### Channel & Monthly Analysis
-
-![Channel Analysis](Screenshots/Channel_Analysis.png)
+![Funnel](Screenshots/ContactTypeMonth.png)
 
 ### Customer Segment Analysis
 
-![Segment Analysis](Screenshots/Segment_Analysis.png)
+![Channel Analysis](Screenshots/jobEducation.png)
+
+### Growth recommendations and Dataset
+
+![Segment Analysis](Screenshots/recommendations.png)
 
 ---
 
