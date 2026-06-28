@@ -1,5 +1,6 @@
 import useAnalytics from "./hooks/useAnalytics";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -14,25 +15,7 @@ function App() {
       conversionRate={data.kpis.conversion_rate}
     />
 
-    <div className="p-10">
-      <div className="rounded-3xl bg-white p-8 shadow-xl">
-        <h1 className="text-4xl font-bold text-slate-900">
-          Marketing Funnel Intelligence
-        </h1>
-
-        <p className="mt-3 text-slate-500">
-          React connected to Python analytics JSON.
-        </p>
-
-        <h2 className="mt-8 text-6xl font-bold text-blue-600">
-          {data.kpis.total_contacts.toLocaleString()}
-        </h2>
-
-        <p className="mt-2 text-slate-500">
-          Total Contacts
-        </p>
-      </div>
-    </div>
+    <Hero kpis={data.kpis} />
   </div>
 );
 }
